@@ -1,0 +1,118 @@
+*
+{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+body
+{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-image: url(windows.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contact-title
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1
+{
+    font-size: 32px;
+    line height: 10px;
+}
+.contact-title h2
+{
+    font-size: 16px;
+}
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: flex;
+    list-style: none;
+    color: silver;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: silver;
+}
+.activate, .menu-bar ul li:hover
+{
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+.menu-bar .fa
+
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+background-color: rgb(0,100,0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent
+    border-radius: 0
+    text-align: left; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
